@@ -1,4 +1,4 @@
-# Zomato-Clone-DevSecOps-
+# Zomato-Clone-DevSecOps
 
 This is a DevSecOps Project.
 
@@ -63,6 +63,19 @@ Step 17. Go to Jenkins->Manage Jenkins->Docker installations->Add Docker
 Step 18. Give Name as DP-check, select Install automatically->Install from docker.com->Version->latest
 
 
+Step 19. Go to Sonarqube and create token - Sonarqube->Administration->Security->users->tokens
+
+Step 20. Give Token name , set expiry and copy generated token.
+
+Step 21. Go to Jenkins->Manage Jenkins->Credentials->System->Global->Add Credentials->Secret text
+
+Step 22. Paste Secret , ID as sonar-token and create
+
+Step 23. Go to Sonarqube and create token - Sonarqube->Administration->Configuration->Webhooks->create
+
+Step 24. 
+
+
 
 
 
@@ -76,6 +89,7 @@ Step 18. Give Name as DP-check, select Install automatically->Install from docke
 
 
 
+# Now the Second Directory Directory.
 
 2. Next to that we have our Zomato dir that is our application code dir.
    It has public , src dir , package files and Dockerfile.

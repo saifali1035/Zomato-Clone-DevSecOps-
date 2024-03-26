@@ -35,6 +35,7 @@ pipeline{
         }
         stage('Install Dependencies') {
             steps {
+                sh "cd Zomato"
                 sh "npm install"
             }
         }

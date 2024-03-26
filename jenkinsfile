@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/saifali1035/Zomato-Clone-DevSecOps-.git'
+                git branch: 'master', url: 'https://github.com/saifali1035/Zomato-Clone-DevSecOps-.git'
             }
         }
         stage("Sonarqube Analysis "){

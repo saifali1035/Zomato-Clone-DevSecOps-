@@ -36,17 +36,34 @@ Step 6. Resister and login in both.
 Step 7. Go to Jenkins->Manage Jenkins->Plugins->Available Plugins
 
 Step 8. Search for below and install.
-         Eclipse
-         SonarQube Scanner
-         NodeJS
-         OWASP
+         Eclipse,
+         SonarQube Scanner,
+         NodeJS,
+         OWASP and
          Docker (All related plugins)
 
 Step 9. Go to Jenkins->Manage Jenkins->Tools->JDK installations->Add JDK
 
 Step 10. Give Name as jdk17 , select Install automatically->Install from adoptium.net->Version->jdk-17.0.8.1+1
 
-Step 11.
+Step 11. Go to Jenkins->Manage Jenkins->Tools->SonarQube Scanner installations->Add SonarQube Scanner 
+
+Step 12. Give Name as sonar-scanner , select Install automatically->Install from Maven Central->Version->Latest
+
+Step 13. Go to Jenkins->Manage Jenkins->Tools->NodeJS installations->Add NodeJS 
+
+Step 14. Give Name as node16 , select Install automatically->Install from nodejs.org->Version->16.2.0
+
+Step 15. Go to Jenkins->Manage Jenkins->Dependency-Check installation (OWASP)->Add Dependency-Check
+
+Step 16. Give Name as DP-check, select Install automatically->Install from github.com->Version->6.5.1
+
+Step 17. Go to Jenkins->Manage Jenkins->Docker installations->Add Docker
+
+Step 18. Give Name as DP-check, select Install automatically->Install from docker.com->Version->latest
+
+
+
 
 
         

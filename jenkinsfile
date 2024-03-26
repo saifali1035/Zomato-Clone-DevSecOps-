@@ -35,8 +35,7 @@ pipeline{
         }
         stage('Install Dependencies') {
             steps {
-                sh "cd Zomato"
-                sh "npm install"
+                sh "npm install --prefix Zomato/"
             }
         }
         stage('OWASP FS SCAN') {

@@ -3,6 +3,7 @@
 This is a DevSecOps Project.
 
 Directories - Jenkins_Sonardocker_trivy and Zomato
+
 Files - jenkinsfile
 
 1. Lets Start with Jenkins_Sonardocker_trivy 
